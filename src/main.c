@@ -17,7 +17,6 @@ static size_t jit_cap = 0;
 static const size_t tape_len = 5000;
 
 #define LOOP_STACK_MAX 100000
-
 static size_t loop_start_stack[LOOP_STACK_MAX];
 static size_t loop_je_patch_stack[LOOP_STACK_MAX];
 
